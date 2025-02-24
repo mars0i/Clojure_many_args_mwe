@@ -1,0 +1,4 @@
+#!/bin/sh
+# Starts nrepl in current terminal window/tab using clojure:
+set -x
+clojure -M:nrepl-server "$@"  # uses nepl-server alias I defined in deps.edn
